@@ -12,31 +12,31 @@ void setup() {
 // the loop function runs over and over again until power down or reset
 void loop() {
 	digitalWrite(13, HIGH);
-	delay(1000);
+	delay(100);
 	digitalWrite(13, LOW);
-	delay(500);
-	digitalWrite(13, HIGH);
-	delay(1000);
-	digitalWrite(13, LOW);
-	delay(1000);
+	delay(100);
 	digitalWrite(13, HIGH);
 	delay(200);
 	digitalWrite(13, LOW);
 	delay(200);
 	digitalWrite(13, HIGH);
+	delay(300);
+	digitalWrite(13, LOW);
+	delay(300);
+	digitalWrite(13, HIGH);
 	delay(500);
 	digitalWrite(13, LOW);
 	delay(500);
 	digitalWrite(13, HIGH);
-	delay(1000);
+	delay(800);
 	digitalWrite(13, LOW);
-	delay(1000);
+	delay(800);
 	digitalWrite(13, HIGH);
-	delay(50);
+	delay(1300);
 	digitalWrite(13, LOW);
-	delay(50);
+	delay(1300);
 	digitalWrite(13, HIGH);
-	delay(50);
+	delay(2100);
 	digitalWrite(13, LOW);
-	delay(50);
+	delay(2100);
 }
