@@ -12,7 +12,7 @@ void setup() {
 // the loop function runs over and over again until power down or reset
 void loop() {
 	digitalWrite(13, HIGH);
-	delay(500);
+	delay(1000);
 	digitalWrite(13, LOW);
 	delay(500);
 	digitalWrite(13, HIGH);
